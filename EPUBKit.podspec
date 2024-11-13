@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '14.0'
   s.osx.deployment_target  = '10.13'
   s.tvos.deployment_target = '14.0'
-  s.dependency 'Zip', :git => 'https://github.com/vapor-community/Zip.git'
   s.dependency 'AEXML'
 
 end
